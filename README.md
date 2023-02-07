@@ -38,7 +38,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Figuring out how to take the user input from the edit text boxes and displaying into different text views in recycler view holdes was quite difficult on this assignment.
 
 ## License
 
