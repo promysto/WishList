@@ -3,6 +3,7 @@ package com.example.wishlist
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
@@ -37,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         val itemVal = findViewById<EditText>(R.id.ItemNameET)
         val priceVal = findViewById<EditText>(R.id.ItemPriceET)
         val websiteVal = findViewById<EditText>(R.id.WebsiteET)
+        websiteVal.movementMethod = LinkMovementMethod.getInstance()
 
         val item = itemVal.text.toString()
         val price = priceVal.text.toString()

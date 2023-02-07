@@ -43,6 +43,7 @@
         android:textAlignment="textEnd"
         android:textColor="@color/black"
         android:textSize="12dp"
+        android:autoLink="web"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemPriceTV" />
 </androidx.constraintlayout.widget.ConstraintLayout>
